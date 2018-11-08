@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suites>
+<suite name="example suite 1" verbose="1" >
+  <test name="Regression suite 1" >
+    <classes>
+      <class name="DDMavenPOI.DDMavenPOI.ReadFrom"/>
+    </classes>
+ </test>
+</suite>
+
+<suite name="example 2" verbose="1" >
+  <test name="Regression suite 2" >
+    <classes>
+      <class name="DDMavenPOI.DDMavenPOI.ReadFrom"/>
+    </classes>
+ </test>
+</suite>
+</suites>

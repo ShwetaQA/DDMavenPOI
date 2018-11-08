@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.701 sec <<< FAILURE! - in TestSuite
+ReadData(DDMavenPOI.DDMavenPOI.ReadFrom)  Time elapsed: 5.696 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+TypeError: rect is undefined
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Shwetas-MacBook-Pro.local', ip: 'fe80:0:0:0:103a:d19f:a86:818b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 3662, moz:profile: /var/folders/y_/bj5nspxd7x3..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.0.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a7ac1157-7cd6-8541-9576-bcf4692c054e
+	at DDMavenPOI.DDMavenPOI.ReadFrom.ReadData(ReadFrom.java:77)
+
